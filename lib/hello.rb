@@ -5,8 +5,11 @@ def hello_t(array)
     while i < array.length 
       yield array[i]
       i += 1 
-    end 
-  array 
+    end
+    array 
+  else 
+    puts "Hey! No blcok was given!"
+  end 
 end
 
 # call your method here!
